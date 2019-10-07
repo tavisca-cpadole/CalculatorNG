@@ -1,0 +1,18 @@
+[
+  { "value": 9, "method": "Operand" },
+  { "value": 8, "method": "Operand" },
+  { "value": 7, "method": "Operand" },
+  { "value": 6, "method": "Operand" },
+  { "value": 5, "method": "Operand" },
+  { "value": 4, "method": "Operand" },
+  { "value": 3, "method": "Operand" },
+  { "value": 2, "method": "Operand" },
+  { "value": 1, "method": "Operand" },
+  { "value": 0, "method": "Operand" },
+  { "value": ".", "method": "Operand" },
+  { "value": "+", "method": "Operator" },
+  { "value": "-", "method": "Operator" },
+  { "value": "*", "method": "Operator" },
+  { "value": "/", "method": "Operator" },
+  { "value": "=", "method": "Operator" }
+]

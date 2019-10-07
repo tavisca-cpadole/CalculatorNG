@@ -1,0 +1,25 @@
+<input type="text" [value]="display" />
+
+<ng-container *ngFor="let content of calciContent; let i = index">
+  <div *ngIf="i % 3 == 0" class="row">
+    <div>
+      <button (click)="this[content.method](content.value)">
+        {{ content.value }}
+      </button>
+    </div>
+    <div *ngIf="i + 1 < calciContent.length">
+      <button
+        (click)="this[calciContent[i + 1].method](calciContent[i + 1].value)"
+      >
+        {{ calciContent[i + 1].value }}
+      </button>
+    </div>
+    <div *ngIf="i + 2 < calciContent.length">
+      <button
+        (click)="this[calciContent[i + 2].method](calciContent[i + 2].value)"
+      >
+        {{ calciContent[i + 2].value }}
+      </button>
+    </div>
+  </div>
+</ng-container>
